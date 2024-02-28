@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PostPutPatchDeleteAndroid3L6</string>
+    <string name="input_title">Input title</string>
+    <string name="input_body">Input body</string>
+    <string name="create_post">Create Post</string>
+    <string name="update_post">Update Post</string>
+    <string name="edit_post">Edit Post</string>
+    <string name="delete_post">Delete Post</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_to_fragment">Back to fragment</string>
+    <string name="data">Данные</string>
+    <string name="information">Информация</string>
+</resources>

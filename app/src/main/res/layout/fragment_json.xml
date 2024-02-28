@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragment.JsonFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_json"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:spanCount="2"
+        tools:listitem="@layout/item_post"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="20dp"
+        android:src="@drawable/arrow"/>
+
+</FrameLayout>
